@@ -24,13 +24,15 @@ const BlogList = () => {
 
   // Fetch blogs
   useEffect(() => {
-  getBlogs()
-    .then((res) => {
-      console.log("BLOG DATA:", res.data);  // ✅ ADD HERE
-      setBlogs(res.data);
-    })
-    .catch((err) => console.log(err));
-}, []);
+    console.log("Fetching blogs...");
+
+    getBlogs()
+      .then((res) => {
+        console.log("BLOG DATA:", res.data);  // ✅ ADD HERE
+        setBlogs(res.data);
+      })
+      .catch((err) => console.log(err));
+  }, []);
 
   // 🔥 ADDED: APPLY DARK MODE
   useEffect(() => {
