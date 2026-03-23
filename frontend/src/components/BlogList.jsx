@@ -331,9 +331,9 @@ const BlogList = () => {
             </p>
 
             <div className="author-buttons">
-              <a href="#" className="btn">Instagram</a>
-              <a href="#" className="btn">GitHub</a>
-              <a href="#" className="btn">LinkedIn</a>
+              <a href="https://www.instagram.com/" className="btn">Instagram</a>
+              <a href="https://github.com/anurag0182" className="btn">GitHub</a>
+              <a href="https://linkedin.in" className="btn">LinkedIn</a>
             </div>
           </div>
         </div>
