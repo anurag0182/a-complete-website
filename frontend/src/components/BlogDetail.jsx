@@ -144,7 +144,7 @@ const BlogDetail = () => {
 
         {/* 🔥 RIGHT — TRENDING SIDEBAR */}
         <aside className="sidebars">
-          <h3>🔥 Trending</h3>
+          <h3> Trending</h3>
           <br></br>
 
           {blogs.slice(0, 5).map((blog) =>
