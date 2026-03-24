@@ -26,7 +26,7 @@ const BlogDetail = () => {
   // 🔥 FETCH ALL BLOGS (for trending)
   useEffect(() => {
     axios
-      .get("https://a-complete-website.onrender.com/api/blogging/")
+      .get("https://a-complete-website-2.onrender.com/api/blogging/")
       .then((res) => setBlogs(res.data))
       .catch((err) => console.log(err));
   }, []);
@@ -56,7 +56,7 @@ const BlogDetail = () => {
               <img
                 src={
                   post?.image
-                    ? `https://a-complete-website.onrender.com${post.image}`
+                    ? `https://a-complete-website-2.onrender.com${post.image}`
                     : "https://via.placeholder.com/400"
                 }
                 alt={post.title}
