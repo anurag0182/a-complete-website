@@ -15,7 +15,7 @@ const BlogDetail = () => {
   // 🔥 FETCH SINGLE POST
   useEffect(() => {
     axios
-      .get(`https://a-complete-website.onrender.com/api/blogging/${slug}/`)
+      .get(`https://a-complete-website-2.onrender.com/api/blogging/${slug}/`)
       .then((res) => setPost(res.data))
       .catch((err) => {
         console.log(err);
