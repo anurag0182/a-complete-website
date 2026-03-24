@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://a-complete-website.onrender.com/api",
+  baseURL: "https://a-complete-website-2.onrender.com/api",
 });
 
 export const getBlogs = async () => {
